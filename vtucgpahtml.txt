@@ -1,0 +1,22 @@
+<html>
+<head>
+ <link rel="stylesheet" href="vtucgpa.css" />
+</head>
+<body>
+<h1>CGPA Calculator</h1>
+<h2>Enter the marks below</h2>
+<p>
+Sem1:<input type="text" id="number1"> Credit:<input type="text" id="credit1"><br>
+Sem2:<input type="text" id="number2"> Credit:<input type="text" id="credit2"><br>
+Sem3:<input type="text" id="number3"> Credit:<input type="text" id="credit3"><br>
+Sem4:<input type="text" id="number4"> Credit:<input type="text" id="credit4"><br>
+Sem5:<input type="text" id="number5"> Credit:<input type="text" id="credit5"><br>
+Sem6:<input type="text" id="number6"> Credit:<input type="text" id="credit6"><br>
+Sem7:<input type="text" id="number7"> Credit:<input type="text" id="credit7"><br>
+Sem8:<input type="text" id="number8"> Credit:<input type="text" id="credit8"><br>
+<input type="button" value="Calculate" onClick="calculate()"><br>
+Result:<span id="result">Click Calculate</span>
+</p>
+<script src="vtucgpa.js"></script>
+</body>
+</html>
